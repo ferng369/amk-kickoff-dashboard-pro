@@ -1,13 +1,8 @@
 export default function Milestones() {
   return (
     <div>
-      <h2 className="text-2xl font-semibold mb-4">🧱 Project Milestones</h2>
-      <ul className="list-disc pl-5 space-y-1">
-        <li>Architecture: Piseth</li>
-        <li>Oversight: Piseth & AMK</li>
-        <li>Testing: QA/UAT Team</li>
-        <li>UAT Sign-off: Piseth & AMK</li>
-      </ul>
+      <h1 className="text-3xl font-bold mb-4">🧱 Key project milestones displayed smoothly.</h1>
+      <p className="text-gray-600">This page uses Framer Motion for smooth transitions.</p>
     </div>
   )
 }
