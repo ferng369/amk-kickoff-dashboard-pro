@@ -11,7 +11,7 @@ export default defineConfig({
   preview: {
     port: 10000,
     host: '0.0.0.0',
-    allowedHosts: ['amk-agenda.onrender.com'],
+    allowedHosts: ['amk-agenda.onrender.com'],  // 🔥 IMPORTANT LINE!
   },
   build: {
     outDir: 'dist',
